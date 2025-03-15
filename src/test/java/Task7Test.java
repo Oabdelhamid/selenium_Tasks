@@ -12,7 +12,7 @@ public class Task7Test {
     @BeforeMethod
     public void Setup(){
      driver = new ChromeDriver();
-     driver.manage().window().maximize();
+     driver.manage().window().minimize();
     }
     @AfterMethod
     public void TearDown(){
