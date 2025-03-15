@@ -16,7 +16,7 @@ public class Task7Test {
     }
     @AfterMethod
     public void TearDown(){
-        driver.close();
+        driver.quit();  // close the driver
 
     }
 
